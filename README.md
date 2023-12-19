@@ -65,8 +65,17 @@
 |:----:|:----:|:----:|:----:|
 |최대 생명력|MaxHealth|100|플레이어의 최대 생명력|
 |현재 생명력|CurrentHealth|(MaxHealth-Dmg)|캐릭터의 현재 생명력|
-|상태|P_Interaction|플레이어와 특정 오브젝트간의 거리를 측정하고 상호작용을 하게 해준다|
+|데미지|Dmg|1|플레이어와 적들의 데미지|
 
+|이름|공식|
+|:----:|:----:|
+|Hit_Head|Dmg = damage * 40|
+|Hit_Arm|Dmg = damage * 5|
+|Hit_Body|Dmg = damage * 10|
+|Hit_Leg|Dmg = damage * 5|
+|CurrentHealth|CurrentHealth = MaxHealth - Dmg|
+
+<br><br>
 
 
 
